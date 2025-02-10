@@ -1,5 +1,10 @@
 import { useState } from 'react';
 import './App.css';
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 30e39dd98cf1ca7d8408038548144d169ffe9381
 let nextid = 2;
 function App() {
  
