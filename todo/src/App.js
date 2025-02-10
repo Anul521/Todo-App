@@ -1,10 +1,12 @@
 import { useState } from 'react';
 import './App.css';
 
+
+let nextid = 2;
 function App() {
   let [todo,updateInput]    =useState("")
     let [todoList,setTodoList]    =useState([{ id :1,task:'learn'}])
-    let nextid = 2;
+    
     function addNewTodo(){
        let newTodos = [...todoList,{id :nextid++ ,task:todo}]
        setTodoList(newTodos)
